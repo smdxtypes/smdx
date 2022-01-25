@@ -1,0 +1,30 @@
+{
+  "name": "Линейная модель",
+  "properties": [
+    {
+      "tag": "alignment",
+      "name": "Трасса",
+      "info": {
+        "type": "SmdxAlignment"
+      }
+    },
+    {
+      "tag": "stationing",
+      "name": "Таблица пикетажа",
+      "info": {
+        "type": "SmdxPkElement",
+        "layout": "list"
+      }
+    },
+    {
+      "tag": "station_length",
+      "name": "Длина пикета",
+      "value": 100.0,
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    }
+  ],
+  "description": "Описание типа: SmdxAlignmentModel"
+}

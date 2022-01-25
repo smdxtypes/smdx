@@ -1,0 +1,38 @@
+{
+  "name": "Точечное пикетажное положение",
+  "properties": [
+    {
+      "tag": "offset",
+      "name": "Смещение от оси",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    },
+    {
+      "tag": "x",
+      "name": "X",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    },
+    {
+      "tag": "y",
+      "name": "Y",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    },
+    {
+      "tag": "z",
+      "name": "Z",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    }
+  ],
+  "description": "Описание типа: SmdxPositionPkPoint"
+}

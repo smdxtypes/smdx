@@ -1,0 +1,20 @@
+{
+  "name": "Футляр",
+  "properties": [
+    {
+      "tag": "name",
+      "name": "Наименование"
+    },
+    {
+      "tag": "pipe_params",
+      "name": "Параметры трубы",
+      "value": {
+        "type": "SmdxPipeParams"
+      },
+      "info": {
+        "type": "SmdxPipeParams"
+      }
+    }
+  ],
+  "description": "Описание типа: SmdxShell"
+}

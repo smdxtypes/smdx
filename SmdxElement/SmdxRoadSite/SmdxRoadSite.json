@@ -1,0 +1,13 @@
+{
+  "name": "Участок автомобильной дороги",
+  "properties": [
+    {
+      "tag": "site",
+      "name": "Границы участка",
+      "info": {
+        "type": "SmdxPositionPkLength"
+      }
+    }
+  ],
+  "description": "Описание типа: SmdxRoadSite"
+}

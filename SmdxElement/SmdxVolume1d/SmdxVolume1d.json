@@ -1,0 +1,14 @@
+{
+  "name": "Объём 2d",
+  "properties": [
+    {
+      "tag": "count",
+      "name": "Объёмы|Количество",
+      "info": {
+        "type": "int",
+        "units": "n"
+      }
+    }
+  ],
+  "description": "Описание типа: SmdxVolume1d"
+}

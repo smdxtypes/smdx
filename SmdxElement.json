@@ -1,0 +1,21 @@
+{
+  "name": "Элемент проекта",
+  "properties": [
+    {
+      "tag": "status_type",
+      "name": "Статус",
+      "value": "DESIGNED",
+      "info": {
+        "type": "enum",
+        "values": {
+          "UNDEFINED": "Не определено",
+          "EXISTING": "Существующий",
+          "DESIGNED": "Проектный",
+          "DISMANTLING": "Демонтируемый",
+          "DISMANTLED": "Демонтированный"
+        }
+      }
+    }
+  ],
+  "description": "Описание типа: SmdxElement"
+}

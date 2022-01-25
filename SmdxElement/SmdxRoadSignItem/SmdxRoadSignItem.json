@@ -1,0 +1,21 @@
+{
+  "name": "Щит дорожного знака",
+  "properties": [
+    {
+      "tag": "number",
+      "name": "№ по ГОСТ"
+    },
+    {
+      "tag": "name",
+      "name": "Наименование по ГОСТ"
+    },
+    {
+      "tag": "temp",
+      "name": "Временный",
+      "info": {
+        "type": "bool"
+      }
+    }
+  ],
+  "description": "Описание типа: SmdxRoadSignItem"
+}

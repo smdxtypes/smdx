@@ -1,0 +1,104 @@
+{
+  "name": "Параметры трубы",
+  "properties": [
+    {
+      "tag": "pipe_inner_diameter",
+      "name": "Геометрия|Внутренний диаметр",
+      "info": {
+        "type": "float",
+        "units": "mm"
+      }
+    },
+    {
+      "tag": "pipe_outer_diameter",
+      "name": "Геометрия|Внешний диаметр",
+      "info": {
+        "type": "float",
+        "units": "mm"
+      }
+    },
+    {
+      "tag": "pipe_thickness",
+      "name": "Геометрия|Толщина стенки",
+      "info": {
+        "type": "float",
+        "units": "mm"
+      }
+    },
+    {
+      "tag": "pipe_material",
+      "name": "Параметры|Материал",
+      "info": {
+        "type": "enum",
+        "values": {
+          "Concerete": "Ж/Б",
+          "PP": "ПП",
+          "PE": "ПЭ",
+          "CastIron": "Чугун",
+          "Steel": "Сталь",
+          "PE32": "ПЭ 32",
+          "PE63": "ПЭ 63",
+          "PE80": "ПЭ 80",
+          "PE100": "ПЭ 100"
+        }
+      }
+    },
+    {
+      "tag": "pipe_nominal_diameter",
+      "name": "Параметры|Номинальный диаметр",
+      "info": {
+        "type": "float",
+        "units": "mm"
+      }
+    },
+    {
+      "tag": "pipe_document",
+      "name": "Параметры|Нормативный документ"
+    },
+    {
+      "tag": "pipe_fullname",
+      "name": "Параметры|Полное обозначение"
+    },
+    {
+      "tag": "pipe_length_with_bell",
+      "name": "Параметры|Длина с раструбом",
+      "info": {
+        "type": "float",
+        "units": "mm"
+      }
+    },
+    {
+      "tag": "pipe_length_without_bell",
+      "name": "Параметры|Длина без раструба",
+      "info": {
+        "type": "float",
+        "units": "mm"
+      }
+    },
+    {
+      "tag": "pipe_sdr",
+      "name": "Параметры|SDR"
+    },
+    {
+      "tag": "pipe_sn",
+      "name": "Параметры|Кольцевая жесткость (SN)"
+    },
+    {
+      "tag": "pipe_ns",
+      "name": "Параметры|Несущая способность"
+    },
+    {
+      "tag": "pipe_pn",
+      "name": "Параметры|PN"
+    },
+    {
+      "tag": "pipe_weight",
+      "name": "Параметры|Вес 1 м.п.",
+      "info": {
+        "type": "float",
+        "units": "kg"
+      }
+    }
+  ],
+  "description": "Описание типа: SmdxPipeParams"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Объём 2d",
+  "properties": [
+    {
+      "tag": "area",
+      "name": "Объёмы|Площадь",
+      "info": {
+        "type": "float",
+        "units": "m^2"
+      }
+    }
+  ],
+  "description": "Описание типа: SmdxVolume2d"
+}

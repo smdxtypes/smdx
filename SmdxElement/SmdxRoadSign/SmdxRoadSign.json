@@ -1,0 +1,37 @@
+{
+  "name": "Дорожный знак",
+  "properties": [
+    {
+      "tag": "position",
+      "name": "Положение",
+      "info": {
+        "type": "SmdxPositionPkPoint"
+      }
+    },
+    {
+      "tag": "type_size",
+      "name": "Типоразмер",
+      "info": {
+        "type": "enum",
+        "values": {
+          "I": "I",
+          "II": "II",
+          "III": "III",
+          "IV": "IV"
+        }
+      }
+    },
+    {
+      "tag": "signs_type",
+      "name": "Тип",
+      "info": {
+        "type": "enum",
+        "values": {
+          "DESIGNED": "Проектный",
+          "EXISTING": "Существующий"
+        }
+      }
+    }
+  ],
+  "description": "Описание типа: SmdxRoadSign"
+}

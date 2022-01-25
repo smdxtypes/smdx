@@ -1,0 +1,18 @@
+{
+  "name": "Пикетажное положение",
+  "properties": [
+    {
+      "tag": "pk",
+      "name": "Пикетаж"
+    },
+    {
+      "tag": "station",
+      "name": "Расстояние от начала",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    }
+  ],
+  "description": "Описание типа: SmdxPositionPk"
+}

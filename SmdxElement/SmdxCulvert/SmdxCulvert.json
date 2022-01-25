@@ -1,0 +1,117 @@
+{
+  "name": "Водопропускная труба",
+  "properties": [
+    {
+      "tag": "station",
+      "name": "Пикет"
+    },
+    {
+      "tag": "angle",
+      "name": "Угол",
+      "info": {
+        "type": "float",
+        "units": "deg"
+      }
+    },
+    {
+      "tag": "length_start",
+      "name": "Длина от начала трубы",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    },
+    {
+      "tag": "length_end",
+      "name": "Длина от конца трубы",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    },
+    {
+      "tag": "elevation_start",
+      "name": "Отметка начала трубы",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    },
+    {
+      "tag": "elevation_end",
+      "name": "Отметка конца трубы",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    },
+    {
+      "tag": "section",
+      "name": "Сечение",
+      "info": {
+        "type": "enum",
+        "values": {
+          "ROUND": "Циллиндрическое",
+          "RECTANGULAR": "Прямоугольное"
+        }
+      }
+    },
+    {
+      "tag": "diameter",
+      "name": "Диаметр",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    },
+    {
+      "tag": "width",
+      "name": "Ширина",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    },
+    {
+      "tag": "height",
+      "name": "Высота",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    },
+    {
+      "tag": "holes",
+      "name": "Количество отверстий",
+      "info": {
+        "type": "int"
+      }
+    },
+    {
+      "tag": "material",
+      "name": "Материал",
+      "info": {
+        "type": "enum",
+        "values": {
+          "CONCRETE": "Железобетон",
+          "METAL": "Металл",
+          "CORRUGATE": "Гофрированная",
+          "SPIRAL": "Спиралевидная"
+        }
+      }
+    },
+    {
+      "tag": "type",
+      "name": "Тип",
+      "info": {
+        "type": "enum",
+        "values": {
+          "EXISTING": "Существующая",
+          "DESIGNED": "Проектная",
+          "RECONSTRUCTED": "Реконструируемая"
+        }
+      }
+    }
+  ],
+  "description": "Описание типа: SmdxCulvert"
+}

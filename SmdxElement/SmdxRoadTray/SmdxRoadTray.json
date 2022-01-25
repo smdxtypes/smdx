@@ -1,0 +1,13 @@
+{
+  "name": "Лоток",
+  "properties": [
+    {
+      "tag": "position",
+      "name": "Положение",
+      "info": {
+        "type": "SmdxPositionPkPoint"
+      }
+    }
+  ],
+  "description": "Описание типа: SmdxRoadTray"
+}

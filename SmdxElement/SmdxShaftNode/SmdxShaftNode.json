@@ -1,0 +1,68 @@
+{
+  "name": "Узел инженерной сети",
+  "properties": [
+    {
+      "tag": "shaft_name",
+      "name": "Название"
+    },
+    {
+      "tag": "shaft_type",
+      "name": "Наименование"
+    },
+    {
+      "tag": "shaft_existing_type",
+      "name": "Признак узла",
+      "info": {
+        "type": "enum",
+        "values": {
+          "EXISTING": "Существующий",
+          "DESIGNED": "Проектный"
+        }
+      }
+    },
+    {
+      "tag": "shaft_profile",
+      "name": "Сечение",
+      "info": {
+        "type": "enum",
+        "values": {
+          "ROUND": "Циллиндрическое",
+          "RECTANGULAR": "Прямоугольное"
+        }
+      }
+    },
+    {
+      "tag": "shaft_top_elevation",
+      "name": "Отметка крышки",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    },
+    {
+      "tag": "shaft_bottom_elevation",
+      "name": "Отметка дна",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    },
+    {
+      "tag": "shaft_surplus",
+      "name": "Превышение крышки",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    },
+    {
+      "tag": "shaft_work_area",
+      "name": "Рабочая камера",
+      "info": {
+        "type": "float",
+        "units": "mm"
+      }
+    }
+  ],
+  "description": "Описание типа: SmdxShaftNode"
+}

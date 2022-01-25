@@ -1,0 +1,14 @@
+{
+  "name": "Объём 3d",
+  "properties": [
+    {
+      "tag": "volume",
+      "name": "Объёмы|Объём",
+      "info": {
+        "type": "float",
+        "units": "m^3"
+      }
+    }
+  ],
+  "description": "Описание типа: SmdxVolume3d"
+}

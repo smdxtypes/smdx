@@ -1,0 +1,44 @@
+{
+  "name": "Траншея",
+  "properties": [
+    {
+      "tag": "ditch_width",
+      "name": "Траншея|Ширина",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    },
+    {
+      "tag": "ditch_length",
+      "name": "Траншея|Длина",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    },
+    {
+      "tag": "ditch_left_slope",
+      "name": "Траншея|Заложение слева, 1:",
+      "info": {
+        "type": "float"
+      }
+    },
+    {
+      "tag": "ditch_right_slope",
+      "name": "Траншея|Заложение справа, 1:",
+      "info": {
+        "type": "float"
+      }
+    },
+    {
+      "tag": "ditch_cut_volume",
+      "name": "Траншея|Объём выемки",
+      "info": {
+        "type": "float",
+        "units": "m^3"
+      }
+    }
+  ],
+  "description": "Описание типа: SmdxDitche"
+}

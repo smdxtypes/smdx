@@ -1,0 +1,76 @@
+{
+  "name": "Труба",
+  "properties": [
+    {
+      "tag": "name",
+      "name": "Наименование"
+    },
+    {
+      "tag": "pipe_grade",
+      "name": "Начало трубы|Уклон от начала трубы",
+      "info": {
+        "type": "float",
+        "units": "ppm"
+      }
+    },
+    {
+      "tag": "pipe_start_node_name",
+      "name": "Начало трубы|Наименование узла"
+    },
+    {
+      "tag": "pipe_start_top_elevation",
+      "name": "Начало трубы|Верхняя отметка",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    },
+    {
+      "tag": "pipe_start_bottom_elevation",
+      "name": "Начало трубы|Нижняя отметка",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    },
+    {
+      "tag": "pipe_backward_grade",
+      "name": "Конец трубы|Уклон от конца трубы",
+      "info": {
+        "type": "float",
+        "units": "ppm"
+      }
+    },
+    {
+      "tag": "pipe_end_node_name",
+      "name": "Конец трубы|Наименование узла"
+    },
+    {
+      "tag": "pipe_end_top_elevation",
+      "name": "Конец трубы|Верхняя отметка",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    },
+    {
+      "tag": "pipe_end_bottom_elevation",
+      "name": "Конец трубы|Нижняя отметка",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    },
+    {
+      "tag": "pipe_params",
+      "name": "Параметры трубы",
+      "value": {
+        "type": "SmdxPipeParams"
+      },
+      "info": {
+        "type": "SmdxPipeParams"
+      }
+    }
+  ],
+  "description": "Описание типа: SmdxPipe"
+}

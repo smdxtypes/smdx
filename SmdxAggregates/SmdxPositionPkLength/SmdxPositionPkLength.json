@@ -1,0 +1,14 @@
+{
+  "name": "Линейное пикетажное положение",
+  "properties": [
+    {
+      "tag": "length",
+      "name": "Длина",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    }
+  ],
+  "description": "Описание типа: SmdxPositionPkLength"
+}

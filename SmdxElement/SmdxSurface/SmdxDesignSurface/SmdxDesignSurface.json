@@ -1,0 +1,22 @@
+{
+  "name": "Поверхность",
+  "properties": [
+    {
+      "tag": "area2d",
+      "name": "Площадь 2D",
+      "info": {
+        "type": "float",
+        "units": "m^2"
+      }
+    },
+    {
+      "tag": "area3d",
+      "name": "Площадь 3D",
+      "info": {
+        "type": "float",
+        "units": "m^2"
+      }
+    }
+  ],
+  "description": "Описание типа: SmdxSurface"
+}

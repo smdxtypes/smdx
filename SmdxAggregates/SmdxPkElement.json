@@ -1,0 +1,43 @@
+{
+  "name": "Элемент пикетажа",
+  "properties": [
+    {
+      "tag": "start_pk",
+      "name": "Пикет начала",
+      "info": {
+        "type": "int"
+      }
+    },
+    {
+      "tag": "start_plus",
+      "name": "Плюс начала",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    },
+    {
+      "tag": "end_pk",
+      "name": "Пикет конца",
+      "info": {
+        "type": "int"
+      }
+    },
+    {
+      "tag": "end_plus",
+      "name": "Плюс конца",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    },
+    {
+      "tag": "index",
+      "name": "Индекс участка",
+      "info": {
+        "type": "string"
+      }
+    }
+  ],
+  "description": "Описание типа: SmdxPkElement"
+}

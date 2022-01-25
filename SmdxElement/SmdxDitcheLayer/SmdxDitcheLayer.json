@@ -1,0 +1,31 @@
+{
+  "name": "Слой траншеи",
+  "properties": [
+    {
+      "tag": "ditch_layer_height",
+      "name": "Слой|Высота слоя",
+      "info": {
+        "type": "float",
+        "units": "m"
+      }
+    },
+    {
+      "tag": "ditch_layer_volume",
+      "name": "Слой|Объём засыпки",
+      "info": {
+        "type": "float",
+        "units": "m^3"
+      }
+    },
+    {
+      "tag": "ditch_diameter",
+      "name": "Слой|Диаметры труб",
+      "info": {
+        "type": "float",
+        "units": "mm",
+        "layout": "list"
+      }
+    }
+  ],
+  "description": "Описание типа: SmdxDitcheLayer"
+}

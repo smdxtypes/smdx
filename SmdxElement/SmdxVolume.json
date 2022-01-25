@@ -1,0 +1,17 @@
+{
+  "name": "Объём",
+  "properties": [
+    {
+      "tag": "site",
+      "name": "Положение",
+      "info": {
+        "type": "SmdxPositionPkLength"
+      }
+    },
+    {
+      "tag": "cipher",
+      "name": "Объёмы|Шифр"
+    }
+  ],
+  "description": "Описание типа: SmdxVolume"
+}

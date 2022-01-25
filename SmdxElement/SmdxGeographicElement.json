@@ -1,0 +1,10 @@
+{
+  "name": "Топографический объект",
+  "properties": [
+    {
+      "tag": "status_type",
+      "value": "EXISTING"
+    }
+  ],
+  "description": "Описание типа: SmdxGeographicElement"
+}
