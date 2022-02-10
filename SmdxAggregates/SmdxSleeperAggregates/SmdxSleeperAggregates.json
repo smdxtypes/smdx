@@ -1,0 +1,48 @@
+{
+  "name": "Параметры шпал",
+  "properties": [
+    {
+      "tag": "height",
+      "name": "Высота",
+      "info": {
+        "type": "float",
+        "units": "mm"
+      }
+    },
+    {
+      "tag": "width",
+      "name": "Ширина",
+      "info": {
+        "type": "float",
+        "units": "mm"
+      }
+    },
+    {
+      "tag": "length",
+      "name": "Длина",
+      "info": {
+        "type": "float",
+        "units": "mm"
+      }
+    },
+    {
+      "tag": "depth",
+      "name": "Заглубление",
+      "info": {
+        "type": "float",
+        "units": "mm"
+      }
+    },
+    {
+      "tag": "material",
+      "name": "Материал",
+      "value": {
+        "type": "SmdxSleeperMaterialOther"
+      },
+      "info": {
+        "type": "SmdxSleeperMaterialAggregates"
+      }
+    }
+  ],
+  "description": "Описание типа: SmdxSleeperAggregates"
+}

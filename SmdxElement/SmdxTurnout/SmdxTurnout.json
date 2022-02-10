@@ -1,4 +1,103 @@
 {
   "name": "Стрелочный перевод",
+  "properties": [
+    {
+      "tag": "position",
+      "name": "Положение",
+      "info": {
+        "type": "SmdxPositionPkPoint"
+      }
+    },
+    {
+      "tag": "name",
+      "name": "Наименование"
+    },
+    {
+      "tag": "description",
+      "name": "Описание"
+    },
+    {
+      "tag": "project",
+      "name": "Типовой проект"
+    },
+    {
+      "tag": "cant_material",
+      "name": "Материал бруса",
+      "info": {
+        "type": "SmdxSleeperAggregates"
+      }
+    },
+    {
+      "tag": "rail_type",
+      "name": "Тип рельса",
+      "info": {
+        "type": "SmdxRailAggregates"
+      }
+    },
+    {
+      "tag": "turnout_type",
+      "name": "Тип перевода",
+      "info": {
+        "type": "enum",
+        "values": {
+          "EXISTS": "Существующий",
+          "PROJECT": "Проектный",
+          "REBUILD": "Перекладываемый"
+        }
+      }
+    },
+    {
+      "tag": "turnout_direction",
+      "name": "Направление",
+      "info": {
+        "type": "enum",
+        "values": {
+          "FORWARD": "Вперёд",
+          "BACKWARD": "Назад"
+        }
+      }
+    },
+    {
+      "tag": "turnout_side",
+      "name": "Сторонность",
+      "info": {
+        "type": "enum",
+        "values": {
+          "LEFT": "Левосторонний",
+          "RIGHT": "Правосторонний"
+        }
+      }
+    },
+    {
+      "tag": "cross_mark",
+      "name": "Крестовина|Марка",
+      "info": {
+        "type": "enum",
+        "values": {
+          "M1_9": "1/9",
+          "M1_18": "1/18",
+          "M1_11": "1/11",
+          "M1_22": "1/22",
+          "OTHER": "Другая",
+          "M1_6": "1/6",
+          "M2_6": "2/6",
+          "M2_9": "2/9",
+          "M2_11": "2/11"
+        }
+      }
+    },
+    {
+      "tag": "cross_angle",
+      "name": "Крестовина|Угол",
+      "info": {
+        "type": "float",
+        "units": "deg"
+      }
+    },
+    {
+      "tag": "cross_description",
+      "name": "Крестовина|Описание"
+    }
+  ],
   "description": "Описание типа: SmdxTurnout"
 }

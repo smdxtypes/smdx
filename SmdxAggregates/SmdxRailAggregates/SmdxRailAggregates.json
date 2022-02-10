@@ -1,0 +1,54 @@
+{
+  "name": "Параметры рельсов",
+  "properties": [
+    {
+      "tag": "height",
+      "name": "Высота рельса",
+      "info": {
+        "type": "float",
+        "units": "mm"
+      }
+    },
+    {
+      "tag": "head_width",
+      "name": "Ширина головки",
+      "info": {
+        "type": "float",
+        "units": "mm"
+      }
+    },
+    {
+      "tag": "bottom_width",
+      "name": "Ширина подошвы",
+      "info": {
+        "type": "float",
+        "units": "mm"
+      }
+    },
+    {
+      "tag": "neck_thickness",
+      "name": "Толщина шейки",
+      "info": {
+        "type": "float",
+        "units": "mm"
+      }
+    },
+    {
+      "tag": "neck_height",
+      "name": "Высота шейки",
+      "info": {
+        "type": "float",
+        "units": "mm"
+      }
+    },
+    {
+      "tag": "pen_height",
+      "name": "Высота пера",
+      "info": {
+        "type": "float",
+        "units": "mm"
+      }
+    }
+  ],
+  "description": "Описание типа: SmdxRailAggregates"
+}

@@ -9,103 +9,17 @@
       }
     },
     {
-      "tag": "rail_type",
-      "name": "Рельсы|Тип"
-    },
-    {
-      "tag": "rail_height",
-      "name": "Рельсы|Высота рельса",
+      "tag": "rail",
+      "name": "Рельсы",
       "info": {
-        "type": "float",
-        "units": "mm"
+        "type": "SmdxRailAggregates"
       }
     },
     {
-      "tag": "rail_head_width",
-      "name": "Рельсы|Ширина головки",
+      "tag": "sleeper",
+      "name": "Шпалы",
       "info": {
-        "type": "float",
-        "units": "mm"
-      }
-    },
-    {
-      "tag": "rail_bottom_width",
-      "name": "Рельсы|Ширина подошвы",
-      "info": {
-        "type": "float",
-        "units": "mm"
-      }
-    },
-    {
-      "tag": "rail_neck_thickness",
-      "name": "Рельсы|Толщина шейки",
-      "info": {
-        "type": "float",
-        "units": "mm"
-      }
-    },
-    {
-      "tag": "rail_neck_height",
-      "name": "Рельсы|Высота шейки",
-      "info": {
-        "type": "float",
-        "units": "mm"
-      }
-    },
-    {
-      "tag": "rail_pen_height",
-      "name": "Рельсы|Высота пера",
-      "info": {
-        "type": "float",
-        "units": "mm"
-      }
-    },
-    {
-      "tag": "slepper_type",
-      "name": "Шпалы|Тип"
-    },
-    {
-      "tag": "slepper_height",
-      "name": "Шпалы|Высота",
-      "info": {
-        "type": "float",
-        "units": "mm"
-      }
-    },
-    {
-      "tag": "sleeper_width",
-      "name": "Шпалы|Ширина",
-      "info": {
-        "type": "float",
-        "units": "mm"
-      }
-    },
-    {
-      "tag": "sleeper_length",
-      "name": "Шпалы|Длина",
-      "info": {
-        "type": "float",
-        "units": "mm"
-      }
-    },
-    {
-      "tag": "sleeper_depth",
-      "name": "Шпалы|Заглубление",
-      "info": {
-        "type": "float",
-        "units": "mm"
-      }
-    },
-    {
-      "tag": "sleeper_material",
-      "name": "Шпалы|Материал",
-      "info": {
-        "type": "enum",
-        "values": {
-          "WOOD": "Дерево",
-          "CONCRETE": "Бетон",
-          "OTHER": "Другое"
-        }
+        "type": "SmdxSleeperAggregates"
       }
     },
     {

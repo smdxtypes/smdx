@@ -1,4 +1,13 @@
 {
   "name": "Упор",
+  "properties": [
+    {
+      "tag": "position",
+      "name": "Положение",
+      "info": {
+        "type": "SmdxPositionPkPoint"
+      }
+    }
+  ],
   "description": "Описание типа: SmdxBufferStop"
 }

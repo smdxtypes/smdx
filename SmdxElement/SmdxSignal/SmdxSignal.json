@@ -1,4 +1,13 @@
 {
-  "name": "Сигнал",
+  "name": "Элемент путевого развития",
+  "properties": [
+    {
+      "tag": "position",
+      "name": "Положение",
+      "info": {
+        "type": "SmdxPositionPkPoint"
+      }
+    }
+  ],
   "description": "Описание типа: SmdxSignal"
 }

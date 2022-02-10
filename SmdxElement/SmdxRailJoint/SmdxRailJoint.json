@@ -2,17 +2,21 @@
   "name": "Cтык",
   "properties": [
     {
+      "tag": "position",
+      "name": "Положение",
+      "info": {
+        "type": "SmdxPositionPkPoint"
+      }
+    },
+    {
       "tag": "strap_type",
       "name": "Тип стыка",
       "info": {
         "type": "enum",
         "values": {
-          "START": "Начало трассы",
-          "END": "Конец трассы",
           "BLOCK": "Изолирующий стык",
           "JOINLESS": "Сварной стык",
-          "BALANCER": "Уравнительный стык",
-          "TURNOUTEND": "Конец стрелочного перевода"
+          "CONVENTIONAL": "Стык"
         }
       }
     }
